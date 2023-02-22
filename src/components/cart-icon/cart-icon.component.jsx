@@ -11,8 +11,6 @@ function CartIcon() {
 
   const toggleIsCartopen = () => setIsCartOpen(!isCartOpen);
 
-  const { cartItems } = useContext(CartContext);
-
     
   return (
     <div className="cart-icon-container" onClick={toggleIsCartopen}>
