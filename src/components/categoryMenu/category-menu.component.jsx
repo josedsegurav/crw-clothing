@@ -1,5 +1,5 @@
 import "./category-menu.styles.scss";
-import CategoryItem from "../categoryItem/category-item.component";
+import CategoryItem from "../directory-item/directory-item.component";
 
 function CategoryMenu({categories}) {
 
