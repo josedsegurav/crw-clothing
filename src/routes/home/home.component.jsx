@@ -1,6 +1,5 @@
 import CategoryMenu from "../../components/categoryMenu/category-menu.component";
 
-import "../../components/categoryMenu/category-menu.styles.scss";
 
 function Home() {
 

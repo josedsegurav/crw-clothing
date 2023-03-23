@@ -1,4 +1,4 @@
-import "./category-menu.styles.scss";
+import { CategoriesContainer } from "./category-menu.styles";
 import CategoryItem from "../directory-item/directory-item.component";
 
 function CategoryMenu({categories}) {
@@ -6,11 +6,11 @@ function CategoryMenu({categories}) {
    
 
   return (
-    <div className="categories-container">
+    <CategoriesContainer>
       {categories.map((category) => (
         <CategoryItem key={category.id} category={category} />
       ))}
-    </div>
+    </CategoriesContainer>
   );
 }
 
